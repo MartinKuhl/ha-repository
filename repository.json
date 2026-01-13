@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant Community Add-ons",
-  "url": "https://addons.community",
-  "maintainer": "Franck Nijhof <frenck@addons.community>"
+  "name": "(Forked) Home Assistant Add-ons",
+  "url": "https://github.com/MartinKuhl/ha-repository",
+  "maintainer": "Martin Kuhl"
 }
