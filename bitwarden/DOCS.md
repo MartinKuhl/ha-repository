@@ -102,6 +102,10 @@ especially if running with limited resources.
 
 To set the limit, you can use this setting: 10MB would be `10485760`.
 
+### Option: `env_vars`
+
+In env_vars you can specify multiple environment variables, with name/value validation.
+
 ## Known issues and limitations
 
 - This add-on cannot support Ingress at this time due to technical limitations
