@@ -32,7 +32,7 @@ email, bank, and other important accounts. USE A PASSWORD MANAGER!
 
 [:books: Read the full add-on documentation][docs]
 
-![Bitwarden Preview](images/screenshot.png)
+![Bitwarden Preview][screenshot]
 
 ## Authors & contributors
 
@@ -54,4 +54,5 @@ The original setup of this repository is by [Franck Nijhof][frenck].
 [releases]: https://github.com/MartinKuhl/addon-bitwarden/releases
 [repository]: https://github.com/MartinKuhl/ha-repository
 [vaultwarden]: https://github.com/dani-garcia/vaultwarden
+[screenshot]: https://github.com/MartinKuhl/addon-bitwarden/raw/main/images/screenshot.png
 [frenck]: https://github.com/frenck
