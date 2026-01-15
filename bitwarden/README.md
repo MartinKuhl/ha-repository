@@ -1,12 +1,15 @@
 # Home Assistant Community Add-on: Vaultwarden (Bitwarden)
 
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
+[![GitHub Release][releases-shield]][releases]
+![Project Stage][project-stage-shield]
+[![License][license-shield]](LICENSE.md)
 
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
 
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
+[![Github Actions][github-actions-shield]][github-actions]
+![Project Maintenance][maintenance-shield]
+[![GitHub Activity][commits-shield]][commits]
 
 Open source password management solution.
 
@@ -27,19 +30,28 @@ under attack every day. Security breaches occur and your passwords are stolen.
 When you reuse the same passwords everywhere hackers can easily access your
 email, bank, and other important accounts. USE A PASSWORD MANAGER!
 
-![Bitwarden Preview][screenshot]
+[:books: Read the full add-on documentation][docs]
 
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[discord]: https://discord.me/hassioaddons
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-bitwarden-rs/115573?u=frenck
-[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
-[github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
-[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
-[patreon]: https://www.patreon.com/frenck
+![Bitwarden Preview](images/screenshot.png)
+
+## Authors & contributors
+
+The original setup of this repository is by [Franck Nijhof][frenck].
+
+
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[commits-shield]: https://img.shields.io/github/commit-activity/y/MartinKuhl/addon-bitwarden.svg
+[commits]: https://github.com/MartinKuhl/addon-bitwarden/commits/main
+[docs]: https://github.com/MartinKuhl/addon-bitwarden/blob/main/bitwarden/DOCS.md
+[github-actions-shield]: https://github.com/MartinKuhl/addon-bitwarden/workflows/CI/badge.svg
+[github-actions]: https://github.com/MartinKuhl/addon-bitwarden/actions
+[issue]: https://github.com/MartinKuhl/addon-bitwarden/issues
+[license-shield]: https://img.shields.io/github/license/MartinKuhl/addon-bitwarden.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.25.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.25.1
-[screenshot]: https://github.com/hassio-addons/addon-bitwarden/raw/main/images/screenshot.png
+[releases-shield]: https://img.shields.io/github/release/MartinKuhl/addon-bitwarden.svg
+[releases]: https://github.com/MartinKuhl/addon-bitwarden/releases
+[repository]: https://github.com/MartinKuhl/ha-repository
 [vaultwarden]: https://github.com/dani-garcia/vaultwarden
+[frenck]: https://github.com/frenck
