@@ -5,3 +5,7 @@ addons:
     repository: MartinKuhl/addon-bitwarden
     target: bitwarden
     image: ghcr.io/martinkuhl/bitwarden/{arch}
+  nginxproxymanager:
+    repository: MartinKuhl/addon-nginx-proxy-manager
+    target: proxy-manager
+    image: ghcr.io/martinkuhl/nginxproxymanager/{arch}  
